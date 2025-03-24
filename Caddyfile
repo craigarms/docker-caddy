@@ -1,0 +1,5 @@
+
+
+https://vpn.cesi.ztn.ovh {
+    reverse_proxy * headscale:8080
+}
