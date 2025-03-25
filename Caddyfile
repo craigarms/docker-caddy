@@ -1,4 +1,5 @@
 https://vpn.cesi.ztn.ovh {
+    reverse_proxy /admin* headplane:3000
     reverse_proxy * headscale:8080
     tls /ssl/certs/fullchain.pem /ssl/certs/privkey.pem
 }
